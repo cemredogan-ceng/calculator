@@ -1,0 +1,60 @@
+﻿*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+.hesapMakinesi {
+    border: 5px groove #1cd2eb;
+    border-radius: 5px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hesapMakinesiTuslar {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+.girdi {
+    width: 100%;
+    font-size: 4rem;
+    height: 70px;
+    border: none;
+    background-color: lavender;
+    color: black;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+html{
+    font-size:10px;
+}
+body{
+    font-size:1.2rem;
+}
+button {
+    height: 60px;
+       background-color: darkorchid;
+    border-radius: 3px;
+    border: 1px groove #1cd2eb;
+    background-color:transparent;
+    font-size:medium;
+    color:black;
+}
+button:hover{
+    background-color:powderblue;
+}
+.operator{
+    color:crimson;
+    font-weight:900;
+}
+.esit {
+    grid-area: 2/4/6/5;
+    height: 100%;
+}
+.clear{
+    background-color:darksalmon;
+}
